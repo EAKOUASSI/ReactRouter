@@ -18,7 +18,7 @@ import CrazyDad from "./Images/CrazyDad.jpg";
 const App = () => {
   const [movies, setMovies] = useState([
     {
-      title: "Black Panther II",
+      title: "Wakanda II",
       description: "Shuri saura-t-elle assumer l'héritage de Tchala ?",
       posterURL: BlackPanther,
       rating: 6.5,
