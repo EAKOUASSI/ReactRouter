@@ -1,0 +1,41 @@
+/* src/App.css */
+@font-face {
+  font-family: Roboto serif;
+  src: url(./Images/RobotoSerif-Variable.ttf) format("truetype");
+}
+
+div.movie-card {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 185px;
+  height: 355px;
+  border: 1px solid #ddd;
+  padding: 7px;
+  margin: 8px;
+  text-align: center;
+  font-family: Roboto serif;
+  border-radius: 3px;
+}
+
+.poster {
+  width: 177px;
+  height: 177px;
+  border: solid rgb(0, 221, 255);
+  margin-bottom: 13px;
+  cursor: pointer;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-around;
+  margin: 16px;
+}
